@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 5 | Tarea 2</title>
+</head>
+<body>
+    <h2 id="titulo">¡Hola! ¿Podrías completar este formulario? ¡Sólo te tomará un minuto!</h2>
+
+    <form>
+        <label for="nombre">Primer nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="segundo-nombre">Segundo nombre:</label>
+        <input type="text" id="segundo-nombre" name="segundo-nombre">
+
+        <label for="apellido">Apellido/s:</label>
+        <input type="text" id="apellido" name="apellido" required>
+
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" name="edad" required>
+
+        <button type="button" id="enviar-b" onclick="mostrarDatos()">Mostrar datos</button>
+    </form>
+
+    <h1 id="bienvenido"></h1>
+
+    <h3>Datos personales:</h3>
+    <p id="nombre-dato"></p>
+    <p id="segundo-nombre-dato"></p>
+    <p id="apellido-dato"></p>
+    <p id="edad-dato"></p>
+
+    <script src="tarea2.js"></script>
+</body>
+</html>
